@@ -1,10 +1,10 @@
 # Metabook төслийн REST API
 
 # Төслийн файлуудыг өөрийн локал орчинд суулгахдаа дараах алхамуудыг дагаарай
--[] git pull origin master
--[] docker-compose run web django-admin startproject metabookcompany .
--[] Хэрэв linux үйлдлийн систем хэрэглэж байгаа бол sudo chown -R $USER:$USER .
--[] metabookcompany/settings.py дээр DATABASE хэсэг дээр дараах тохиргоог хийнэ
+### git pull origin master
+### docker-compose run web django-admin startproject metabookcompany .
+### Хэрэв linux үйлдлийн систем хэрэглэж байгаа бол sudo chown -R $USER:$USER .
+### metabookcompany/settings.py дээр DATABASE хэсэг дээр дараах тохиргоог хийнэ
 ```
 # settings.py
    
@@ -23,4 +23,4 @@ DATABASES = {
     }
 }
 ```
--[] docker compose up коммандыг бичсэнээр 8000 порт дээр project маань асна
+### docker compose up коммандыг бичсэнээр 8000 порт дээр project маань асна
