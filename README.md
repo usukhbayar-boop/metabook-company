@@ -1,4 +1,4 @@
-# Metabook төслийн REST API
+# Mate төслийн REST API
 
 # Төслийн файлуудыг өөрийн локал орчинд суулгахдаа дараах алхамуудыг дагаарай
 ### git pull origin master
